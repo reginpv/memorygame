@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lato:100,300');
+
+html, body {
+	color: #333333;
+	font-family: 'Lato', 'sans-serif', arial;
+	font-weight: 100;
+}
+a, a:hover {
+	color: #000;
+}
+
+/* Head */
+section.logo {
+	position: fixed;
+	top: 10vh;
+	width: 100vw;
+	text-align: center;
+	z-index: 9;
+	height: 10vh;
+}
+section.logo h1 {
+	font-family: 'Lobster';
+	font-size: 80px;
+}
+section.logo h1 a:hover {
+	text-decoration: none;
+}
+
+/* Modal content */
+section.modal {
+	height: 100vh;
+}
+
+/* Footer */
+section.footer {
+	max-height: 10vh;
+	position: fixed;
+	bottom: 0;
+	z-index: 9
+}
+
+@media (max-width: 575px) {
+	section.logo h1 {
+		font-size: 40px;
+	}
+}
+@media (max-width: 767px) {}
+@media (max-width: 991px) {}
+@media (max-width: 1199px) {}

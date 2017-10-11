@@ -4,9 +4,15 @@ html, body {
 	color: #333333;
 	font-family: 'Lato', 'sans-serif', arial;
 	font-weight: 100;
+	height: 100%;
 }
 a, a:hover {
-	color: #000;
+	color: #563d7c;
+}
+input.btn-start:hover {
+	background: #563d7c!important;
+	transition: all ease .3s;
+	color: #fff!important;
 }
 
 /* Head */
@@ -18,11 +24,12 @@ section.logo {
 	z-index: 9;
 	height: 10vh;
 }
-section.logo h1 {
+section.logo h1, .logo h1 {
 	font-family: 'Lobster';
 	font-size: 80px;
+	color: #563d7c;
 }
-section.logo h1 a:hover {
+section.logo h1 a:hover, .logo h1 a:hover {
 	text-decoration: none;
 }
 

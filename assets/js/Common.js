@@ -13,7 +13,7 @@ $(function(){
 
 		$(".logo").animate({"top": "20px"})
 		$(".logo h1").animate({"font-size": "40px"})
-		$(".logo .row .col-12:nth-child(1)").addClass("col-6 text-center text-md-left")
+		$(".logo .row .col-12:nth-child(1)").addClass("col-6 text-center text-md-center")
 		$(".logo .row .col-12:nth-child(2)").addClass("col-6 text-center text-md-right")
 	})
 

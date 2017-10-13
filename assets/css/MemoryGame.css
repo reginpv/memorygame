@@ -40,7 +40,7 @@ body {
 }
 
 #memory--app-container {
-	background-color: #fff;
+	background-color: transparent;
 	width:100%;
 	height:80vh;
 }
@@ -104,7 +104,7 @@ body {
 }
 
 #memory--settings-modal {
-	background: #fff;
+	background: transparent;
 	z-index: 4;
 }
 #memory--settings-modal form {
@@ -123,7 +123,7 @@ margin:8px 0;
 	width:100%;
 	margin-bottom:16px;
 	font-size:18px;
-	background:transparent;
+	background: #ffffff;
 	color:#333;
 	height:50px;
 	text-align: center;
@@ -138,6 +138,7 @@ margin:8px 0;
 	border-radius:5px;
 	border:2px solid #ccc;
 	cursor: pointer;
+	background: #ffffff;
 }
 
 #memory--cards {
@@ -222,7 +223,10 @@ margin:8px 0;
 	background-position:50% 50%;
 	background-repeat: no-repeat;
 	background-size: contain;
-
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 2px #ffffff solid;
 }
 
 /* back, initially hidden pane */
@@ -236,6 +240,10 @@ margin:8px 0;
 	background-position:50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: 2px #ffffff solid;
 }
 
 .back.card-1 {

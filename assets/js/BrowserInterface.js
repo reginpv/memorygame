@@ -65,6 +65,7 @@
       document.getElementById('memory--end-game-message').textContent = message;
       document.getElementById('memory--end-game-score').textContent =
           'Score: ' + score + ' / 100';
+      document.getElementById('memory--end-game-message2').textContent = "Click the logo to play again!"
 
       document.getElementById("memory--end-game-modal").classList.toggle('show');
     }

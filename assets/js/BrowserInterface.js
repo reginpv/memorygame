@@ -29,8 +29,26 @@
     var status = $.play(this.index);
     console.log(status);
 
+    // Start of sound hack
+    let audio = document.getElementById("tap");
+
+    if(status.code == 2) { // Match
+      console.log("Play correct", document.getElementById("correct"))
+      audio = document.getElementById("correct")  
+    }
+    if(status.code == 3) {
+      audio = document.getElementById("wrong")
+    }
+    if(status.code == 4) {
+      audio = document.getElementById("completed")
+    }
+
+    audio.play()
+    // End of sound hack
+
     if (status.code != 0 ) {
       this.classList.toggle('clicked');
+      
     }
 
     if (status.code == 3 ) {
